@@ -58,7 +58,9 @@
     <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/style-custom.css" rel="stylesheet">
+    <link href="assets/css/style-new.css" rel="stylesheet">
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
@@ -68,26 +70,64 @@
       <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
         <div class="container">
           <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html"><img src="assets/images/dsa-logo-v3.svg" width="120" style="margin-top:-10px"></a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index.html"><img src="assets/images/dsa_logo_white_03.png" width="120" style="margin-top:-10px"></a>
           </div>
           <div class="collapse navbar-collapse" id="custom-collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#totop">Home</a></li>
-              <li><a class="section-scroll" href="#explorer">Explorer</a></li>
-              <li><a class="section-scroll" href="#project">Project</a></li>
+              <li><a class="section-scroll" href="#purpose">Introduction</a></li>
+              <li><a class="section-scroll" href="#explorer">Visualizations</a></li>
+              <li><a class="section-scroll" href="#project">Project Details</a></li>
             </ul>
           </div>
         </div>
       </nav>
-      <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/images/harley-davidson-wdc9ZAiwBB4-unsplash.jpg">
+      <section class="home-section home-full-height bg-dark bg-gradient" id="home" data-background="assets/images/marek-piwnicki-1mPt-NoQ_yY-unsplash.jpg">
         <div class="titan-caption">
           <div class="caption-content">
-            <div class="font-alt mb-20 titan-title-size-1">RStudio Shiny Contest 2021</div>
-            <div class="font-alt mb-30 titan-title-size-4">Commute Explorer</div>
+            <div class="font-alt mb-20 titan-title-size-1">Data Science & Analytics</div>
+            <div class="font-alt mb-30 titan-title-size-4">ASCENT Platform</div>
             <a class="section-scroll btn btn-border-w btn-round" href="#explorer" style="font-size: 20px; padding: 10px 20px;">Let's Explore!</a>
           </div>
         </div>
       </section>
+      
+<section>
+  <div class="container_mountain" id="purpose">
+      <div class="hero">
+          <div class="hero__image">
+              <div class="hero__image--overlay"></div>
+              <div class="hero__child hero__child--primary animation--floating"></div>
+              <div class="hero__child hero__child--secondary animation--floating"></div>
+              <p class="hero__title animation--title-in">The flaming mountain</p>
+              <p class="hero__subtitle animation--title-in">by John Blaine</p>
+          </div>
+      </div>
+  </div>
+  <div class="section">
+      <h2>A RICK BRANT SCIENCE-ADVENTURE STORY</h2>
+      <hr>
+      <p class="section__text">Rock, melting like butter on a hot stove! It is hard to believe, but that is what happens on San Luz, a small island off the coast of South America. When Rick Brant and his pal Dan Scott fly to the famous resort island to join Rick's father, head of the Spindrift Scientific Foundation, a seemingly inactive volcano is about to explode in an eruption which could easily blow San Luz off the map.</p>
+  
+      <p>The immediate threat is to a small town at the foot of the volcano, where the air reeks with the fumes of hydrogen sulfide and sulfur dioxide, and it is here that Rick and Scotty help Dr. Brant and his scientist associates set up headquarters, in the hope of finding a way of controlling an eruption that is growing into a certainty with fantastic speed.</p>
+  
+      <p>But their efforts to save the island town are hindered by the superior forces of nature, the superstitious fatalism of the people—and sabotage!</p>
+  
+      <p>With the earth opening up all around them, Rick, Scotty, and the scientists have little hope of preventing a catastrophe, until a decision is made to unleash the awesome power of atomic energy in a desperate last attempt to fight the volcanic eruption.</p>
+  
+      <p>Jam-packed with excitement and swift, tense action, The Flaming Mountain has all the elements that have made the Rick Brant Science Adventure series a favorite with boys all over the world.</p>
+      &mdash;
+      <h3>CHAPTER I</h3>
+      <h4>Vulcan's Hammer</h4>
+      <p class="section__text">The entire staff of the world-famed Spindrift Scientific Foundation gathered in the conference room of the big gray laboratory building on the southeast corner of Spindrift Island. It was unusual for the whole staff to be called to a meeting. Even more unusual—not a single member knew what the meeting was about.</p>
+  
+      <p>Rick Brant, son of the Spindrift Foundation's director, Dr. Hartson Brant, was perhaps even more mystified than the professional scientists. His father had phoned from Florida with brief instructions. "Rick, I want you and Scotty to make a scale model of San Luz Island. It's off the coast of Venezuela. You'll find it on the sailing chart of the area, and there are references in the library. Be as complete and detailed as possible, and have the model ready by Saturday. Pick me up at Newark Airport Saturday noon. I'll have a guest. Ask Hobart Zircon to call a full staff meeting for two o'clock Saturday."</p>
+  
+      <p>Rick and his pal Don Scott had completed the model, which was now resting on a table at the front of the lab conference room. One hour ago he had flown with Scotty in his plane, the Sky Wagon, to Newark Airport where he had picked up his father and a short, white-haired elderly man by the name of Dr. Esteben Balgos.</p>
+  </div>
+</section>
+
+      
       <div class="main">
         <section class="explorer-section home-full-height bg-dark-90" id="explorer">
             {{ commute_explorer }}
@@ -265,20 +305,20 @@
                 <div class="widget">
                   <h5 class="widget-title font-alt">Developed By</h5>
                   <p>
-                    Stefan Schliebs<br>
-                    Auckland, New Zealand
+                    Data Science & Analytics<br>
+                    Design Consulting Group
                   </p>
                   <p>
-                    <a href="https://www.linkedin.com/in/sschliebs/"><i class="fa fa-linkedin" style="font-size:20px; padding-right:15px"></i></a>
-                    <a href="https://github.com/nz-stefan/"><i class="fa fa-github" style="font-size:20px; padding-right:25px"></i></a>
+                    <a href="https://abbvie.sharepoint.com/teams/ClinicalAnalytics" target="_blank"><i class="fa-brands fa-windows" style="font-size:20px; padding-right:15px"></i></a>
+                    <a href="https://github.com/orgs/abbvie-internal/teams/js-wizards" target="_blank"><i class="fa fa-github" style="font-size:20px; padding-right:25px"></i></a>
                   </p>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="widget">
-                  <h5 class="widget-title font-alt">Learn Shiny?</h5>
+                  <h5 class="widget-title font-alt">Learn More?</h5>
                   <p>
-                    Check out the <a href="https://www.datascienceacademy.co.nz">Data Science Academy</a> for in-person workshops and tutorials in New Zealand.
+                    Check out the <a href="https://teams.microsoft.com/_#/FileBrowserTabApp/Design%20Consulting%20Group?threadId=19:9ad75118ebbe4b599c221401ebfee649@thread.tacv2&ampctx=channel" target="_blank"><img src="assets/images/design-consulting-group-low-resolution-logo-color-all-white.png" style="width: 25%"/></a> for additional information, as well as, in-person workshops and tutorials.
                   </p>
                 </div>
               </div>
@@ -291,7 +331,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-12">
-                <p class="copyright font-alt">DSA, 2021</p>
+                <p class="copyright font-alt">DSA, 2024</p>
               </div>
             </div>
           </div>
